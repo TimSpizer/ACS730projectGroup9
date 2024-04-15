@@ -1,3 +1,10 @@
+This is Our Read me file
+This is project provides set for setting up 2-tier web application automation with terraform.
+It contains terraform code to set-up network infrastructure, the load balancer and automatic scaling group.
+prerequisites for the project is terraform and git. git for cloning the repository and terraform to run the code infrastructure.
+
+Below is detailed step by step explanation:
+
 Implementing the AWS Architecture with Terraform: Step-by-Step
 Based on the provided screenshots, here's a comprehensive step-by-step guide to achieve the desired AWS architecture using Terraform while adhering to the specified requirements:
 2. VPC Module 
