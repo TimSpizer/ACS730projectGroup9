@@ -58,3 +58,10 @@ variable "vpc_private_subnets" {
 #  type        = list(string)
 #  default     = ["10.200.101.0/24", "10.200.102.0/24", "10.200.103.0/24"]
 #}
+
+# VPC Private Subnets
+#variable "vpc_private_subnets" {
+# description = "VPC Private Subnets"
+#  type        = list(string)
+#  default     = ["10.200.1.0/24", "10.200.2.0/24", "10.200.3.0/24"]
+}
