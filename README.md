@@ -6,8 +6,9 @@ prerequisites for the project is terraform and git. git for cloning the reposito
 Below is detailed step by step explanation:
 
 Implementing the AWS Architecture with Terraform: Step-by-Step
-Based on the provided screenshots, here's a comprehensive step-by-step guide to achieve the desired AWS architecture using Terraform while adhering to the specified requirements:
-2. VPC Module 
+
+VPC Module
+
 main.tf:
 Create the VPC with the specified CIDR blocks for each environment.
 Create public and private subnets in at least two availability zones.
@@ -24,10 +25,7 @@ Create security groups for the web servers, allowing inbound HTTP and HTTPS traf
 Create security groups for the load balancer, allowing inbound traffic from the internet and outbound traffic to the web servers.
 variables.tf:
 Define variables for port numbers and protocols.
-4. IAM Module
-main.tf:
-Create an IAM role for the EC2 instances with permissions to access S3 and any other necessary resources.
-Create an IAM instance profile and associate it with the role.
+
 5. Auto Scaling Group Module 
 main.tf:
 Create launch configurations for the EC2 instances, specifying the AMI, instance type, security groups, and user data for installing and configuring the web application.
